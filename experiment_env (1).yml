@@ -1,0 +1,17 @@
+name: experiment_env
+channels:
+- conda-forge
+dependencies: 
+- python==3.8.10
+- scikit-learn
+- ipykernel
+- matplotlib
+- pandas
+- pip
+- tensorflow=
+- keras
+- pip: 
+  - azureml-defaults
+  - pyarrow
+  - tensorflow
+  
